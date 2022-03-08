@@ -28,7 +28,7 @@ public class HealthProfileTest {
                 healthProfile.calculateMaximumHeartRate(), healthProfile.calculateTargetHeartRate(),
                 healthProfile.getBMI(healthProfile.getWeight(), healthProfile.getHeight()));
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------\n");
-        System.out.println("-------[ INFO -  ]------");
+        System.out.println("--------------[ INFO ]-------------");
         System.out.println("MHR = Maximum Heart Rate");
         System.out.println("THR = Target Heart Rate");
         System.out.println("BMI = Body Mass Index");
