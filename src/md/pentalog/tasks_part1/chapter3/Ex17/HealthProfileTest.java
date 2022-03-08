@@ -2,10 +2,10 @@ package md.pentalog.tasks_part1.chapter3.Ex17;
 
 public class HealthProfileTest {
     public static void main(String[] args) {
-        HealthProfile healthProfile1 = new HealthProfile("Anubis", "II", HealthProfile.GENDER.MALE, 1,
+        HealthProfile healthProfile1 = new HealthProfile("Ramses", "II", HealthProfile.GENDER.MALE, 1,
                 24, 1970, 143.3, 66);
 
-        HealthProfile healthProfile2 = new HealthProfile("Cleopatra", "I", HealthProfile.GENDER.FEMALE, 4,
+        HealthProfile healthProfile2 = new HealthProfile("Cleopatra", "VII", HealthProfile.GENDER.FEMALE, 4,
                 21, 1990, 140, 66);
         getHealthProfile(healthProfile1);
         System.out.println();
