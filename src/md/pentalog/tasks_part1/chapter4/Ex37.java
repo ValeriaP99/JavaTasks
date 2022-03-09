@@ -44,13 +44,13 @@ public class Ex37 {
     }
 
     public static double getConstantE(int n){
-        double e = 1.0;
-        int fact;
+        double constantE = 1.0;
+        double fact;
         for(int i = 1; i <= n; i++){
-            fact = getFactorial(i);
-            e += (1/fact);
+            fact = 1/getFactorial(i);
+            constantE += fact;
         }
-        return e;
+        return constantE;
     }
 
     public static double getConstantEX(int n, int x){
