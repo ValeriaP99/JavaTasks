@@ -26,9 +26,18 @@ public class EmployeeSalary {
     public double getGrossPay(int hours, double salaryPerHour){
         double total = hours * salaryPerHour;
         if(hours > 40){
-            total = total + (hours-40)*(salaryPerHour/2);
+            total = (40*salaryPerHour) + ((hours-40)*(salaryPerHour/2));
         }
         return total;
     }
 
+    @Override
+    public String toString() {
+        return "Employee Information\n{" + "\n" +
+                "   Name: " + name + "\n" +
+                "   Hours: " + hours + "\n" +
+                "   Salary per hour: " + salaryPerHour + "\n" +
+                "   Gross pay=: " + getGrossPay(getHours(), getSalaryPerHour()) + "\n" +
+                '}';
+    }
 }
