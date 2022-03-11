@@ -4,13 +4,6 @@ public class Ex21 {
     public static void main(String[] args) {
         System.out.println("-----[ Display digits ]--------");
         displayDigits(3456);
-
-        int n = 10;
-        for (int i = 0; i < 4; i++){
-            n *= 10;
-        }
-        System.out.println(n);
-
     }
 
     public static int calculateIntegerPart(int a, int b){
@@ -32,18 +25,14 @@ public class Ex21 {
 
     public static void displayDigits(int n){
         int length = countLength(n);
-        int ten = 10;
+        int ten;
         int num;
-
-
-
-        /*while (n != 0){
-            ten = (ten*length)/length;
+        ten = (int) Math.pow(10, (length-1));
+        while (n != 0){
             num = calculateIntegerPart(n, ten);
             n = calculateRemainder(n, ten);
             System.out.print(num+"  ");
             ten /= 10;
-            //length -= 1;
-        }*/
+        }
     }
 }
