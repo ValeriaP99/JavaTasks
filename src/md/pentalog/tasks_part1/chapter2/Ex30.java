@@ -27,7 +27,7 @@ public class Ex30 {
             number %= 10;
             int d5 = number;
 
-            System.out.println(d1+"  "+d2+"  "+d3+"  "+d4+"  "+d5);
+            System.out.println(d1+"   "+d2+"   "+d3+"   "+d4+"   "+d5);
         }else if(i < 5){
             System.out.println("The number is short, enter a five-digit number");
         }else if(i > 5){

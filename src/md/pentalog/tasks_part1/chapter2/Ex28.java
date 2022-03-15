@@ -13,8 +13,8 @@ public class Ex28 {
         System.out.print("Enter radius --> ");
         radius = scanner.nextInt();
 
-        System.out.printf("Diameter = %.2f%n", ((double)2 * radius));
-        System.out.printf("Circumference = %.2f%n", ((double)2 * Math.PI * radius));
-        System.out.printf("Area = %.2f%n", ((double)Math.PI * Math.pow(radius, 2)));
+        System.out.printf("Diameter = %d%n", (2 * radius));
+        System.out.printf("Circumference = %.2f%n", (2 * Math.PI * radius));
+        System.out.printf("Area = %.2f%n", (Math.PI * Math.pow(radius, 2)));
     }
 }

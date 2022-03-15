@@ -15,5 +15,6 @@ public class Ex29 {
         System.out.printf("The character %c has the value %d%n", '*', ((int)'*'));
         System.out.printf("The character %c has the value %d%n", '+', ((int)'+'));
         System.out.printf("The character %c has the value %d%n", '/', ((int)'/'));
+        System.out.printf("The character %s has the value %d%n", "(space)", ((int)' '));
     }
 }
