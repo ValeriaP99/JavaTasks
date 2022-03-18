@@ -7,11 +7,11 @@ public class TestGameOfCraps {
     public static void main(String[] args) {
         GameOfCraps gameOfCraps = new GameOfCraps();
 
-        Map<String, int[]> map = new HashMap<>();
-        for(int k = 0; k < 10; k++){
+        Map<String, int[]> map = gameOfCraps.runCraps();
+        //for(int k = 0; k < 50; k++){
             //System.out.println("----------------["+k+"]------------------");
-            map = gameOfCraps.runCraps();
-        }
+            //map = gameOfCraps.runCraps();
+        //}
 
 
         System.out.println();
