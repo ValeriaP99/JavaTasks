@@ -11,8 +11,7 @@ public class HeartRatesTest {
         System.out.println("Day of birth: "+heartRates.getDay());
         System.out.println("Year of birth: "+heartRates.getYear());
 
-        System.out.println("Age in years --> "+heartRates.calculateAge(heartRates.getMonth(), heartRates.getDay(),
-                heartRates.getYear()));
+        System.out.println("Age in years --> "+heartRates.calculateAge());
         System.out.println("Your max heart rate --> "+heartRates.calculateMaximumHeartRate());
         System.out.println("Your target heart rate --> "+heartRates.calculateTargetHeartRate());
     }

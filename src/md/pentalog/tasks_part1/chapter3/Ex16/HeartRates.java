@@ -57,24 +57,24 @@ public class HeartRates {
         this.year = year;
     }
 
-    public int calculateAge(int month, int day, int year){
+    public int calculateAge(){
         LocalDate now = LocalDate.now();
-        year = now.getYear() - year;
+        int year2 = now.getYear() - year;
         month = now.getMonthValue() - month;
         day = now.getDayOfMonth() - day;
 
         if(month < 0){
-            year--;
+            year2--;
         }else if(month == 0){
             if(day < 0){
-                year--;
+                year2--;
             }
         }
-        return year;
+        return year2;
     }
 
     public int calculateMaximumHeartRate(){
-        int age = calculateAge(getMonth(), getDay(), getYear());
+        int age = calculateAge();
        return 220 - age;
     }
 
