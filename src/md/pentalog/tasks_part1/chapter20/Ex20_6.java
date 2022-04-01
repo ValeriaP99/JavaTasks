@@ -1,6 +1,6 @@
 package md.pentalog.tasks_part1.chapter20;
 
-public class EX20_6 {
+public class Ex20_6 {
     public static void main(String[] args)
     {
         // create arrays of Integer, Double and Character
